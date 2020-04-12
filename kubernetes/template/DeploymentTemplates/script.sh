@@ -489,6 +489,8 @@ log_level -i "Done building cluster definition."
 #####################################################################################
 # aks-engine commands
 
+echo $AZURESTACK_CONFIGURATION_TEMP
+
 log_level -i "Deploying using AKS Engine."
 
 ./bin/aks-engine deploy \
