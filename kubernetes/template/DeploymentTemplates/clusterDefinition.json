@@ -9,6 +9,7 @@
                 "kubernetesImageBase": "",
                 "useInstanceMetadata": false,
                 "networkPlugin": "kubenet",
+                "networkPolicy": "",
                 "containerRuntime": "docker",
                 "cloudProviderRateLimitBucket": 0,
                 "cloudProviderRateLimitBucketWrite": 0,
